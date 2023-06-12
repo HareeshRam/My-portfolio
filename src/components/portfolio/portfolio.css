@@ -1,0 +1,87 @@
+#portfolio{
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    display: grid;
+   justify-content: center;
+    grid-template-rows: 1fr 5fr  ;
+    animation: animateBg 5s linear infinite ;
+}
+@keyframes animateBg 
+{
+100%{
+    filter: hue-rotate(360deg);
+}    
+}
+.head{
+    display: flex;
+    justify-content: center;
+    color:#7373eb ;
+    margin-left: 15rem;
+     
+}
+
+
+
+.border{
+    margin-top: 5rem;
+    border: 2px solid white;
+    border-radius: 2rem;
+    background-color: black;
+    height:23rem ;
+    width: 12rem;
+    box-shadow: 0px 0px 15px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.card1{
+    border: 1px soloid black;
+    height:10rem;
+    width: 10rem;
+    margin-top: 1rem;
+    
+    transform: rotate(-3deg);
+    transition: var(--transition);
+    animation: animateBg 5s linear infinite ;
+
+}
+@keyframes animateBg 
+{
+100%{
+    filter: hue-rotate(360deg);
+}    
+}
+.login:hover{
+    transform: 0;
+}
+.card>.login:hover{
+   height: 15rem;
+   width: 15rem;
+   display: flex;
+   margin-top: 5rem;
+   grid-template-columns: repeat(3,1fr);
+   
+
+}
+
+
+@media screen and (max-width:600PX) {
+
+    #portfolio{
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-content: center;
+        margin-left: 7rem;
+ 
+    }
+    .head{
+        margin-left:-12rem;
+    }
+
+
+
+
+   
+}
