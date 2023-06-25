@@ -5,12 +5,12 @@
 }
 nav{
     background: rgba(0, 0, 0, 0.3);
-   
+   z-index: 10;
     width: max-content;
     display:block;
     padding: 0.9rem 1.7rem;
     position: fixed;
-    left: 40%;
+    left: 50%;
     transform: translateX(-50%);
     bottom: 2rem;
     display: flex;

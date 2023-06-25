@@ -40,10 +40,12 @@ const About = () => {
      
    </article> </a>
    </div>
-   <p>An enthusiastic learner from the graduating batch of 2022,trained at Fullstack Web Development.Seeking a Challenging career in IT sector that offers an oppurtunity to update myself and to move an organization hierarchy with continous learning & growth.<br></br>
+   <div className='text'>
+   <p >An enthusiastic learner from the graduating batch of 2022,trained at Fullstack Web Development.Seeking a Challenging career in IT sector that offers an oppurtunity to update myself and to move an organization hierarchy with continous learning & growth.<br></br>
     I'm passionate Developer,with strong administrative and communication skills,good attention to details and the ability to write efficient code.
    </p>
-    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+   </div>
+    {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
     </div>
      </div>
     </section>

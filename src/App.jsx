@@ -16,7 +16,6 @@ const App = () => {
    <Experience/>
    
    <Portfolio/>
-   {/* Portfolio Gitub */}
    
    <Contact/>
    <Footer/>

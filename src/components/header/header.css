@@ -1,7 +1,11 @@
 header{
-    /* height: 100vh; */
+    height: 120vh;
     padding-top: 7rem;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+.text-light{
+    font-size:1.5rem;
+    text-shadow: 2px 2px 2px blue;
 }
 .header__container{
     
@@ -16,13 +20,14 @@ header{
     gap: 1.2rem;
     justify-content: center;
 }
+
 /*===== HEADER SOCIALS ========*/
 .header__socials{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.8rem;
+    gap: 1rem;
     position: absolute;
     bottom: 3rem;
 }
@@ -47,8 +52,8 @@ header{
 }
 
 #a{
-   width: 20rem;
-   height: 20rem;
+   width: 15rem;
+   height: 15rem;
     border-radius: 2rem;
     background: transparent;
     background: linear-gradient(60deg,transparent,var(--color-primary),transparent);
@@ -74,9 +79,17 @@ header{
 /*===========MEDIA QUERIES(SMALL DEVICES)===============*/
 @media screen and (max-width:600PX) {
     header{
-        height: 100vh;
+        height: 80vh;
     }
     .header__socials,.scroll__down{
-        display: none;
+        /* display: none; */
+      
+    }
+    .btn{
+        border: 2px solid white;
+        box-shadow: 2px 3px 2px blue;
+    }
+    marquee{
+       scroll-timeline: 1s;
     }
 }
